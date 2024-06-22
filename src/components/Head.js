@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { toggleMenu } from "../utils/appSlice";
 import { Search_API } from "../utils/helper";
 import { cacheResults } from "../utils/searchSlice";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 const Head = () => {
   const [SearchQuery, setsearchQuery] = useState("");
